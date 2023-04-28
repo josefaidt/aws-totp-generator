@@ -2,6 +2,8 @@
 
 This project creates a Lambda Function that expects a secret in [AWS SecretsManager](https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html) as `provider/discord/totp-key`. Calling the Lambda Function produces a time-based one-time (TOTP) password to use to login to your Discord.
 
+![Architecture diagram](./images/architecture-diagram.png)
+
 ## Getting Started
 
 1. In Discord, navigate to "User Settings" > "Account" and select "Enable 2FA"
